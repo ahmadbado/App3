@@ -71,14 +71,17 @@ Console.WriteLine("total:  " + sum);
 Console.WriteLine("------- Print Names");
 
 string[] names = new string[] { "ahmad", "rami", "sami" };
-foreach (var n in names)
+//foreach (var n in names)
+//{
+//    Console.WriteLine(n + ", ");
+//}
+
+
+for (int i = 0; i < names.Length; i++)
+
 {
-    Console.WriteLine(n + ", ");
+    Console.WriteLine(names[i] + ", ");
 }
-
-
-
-
 
 
 
